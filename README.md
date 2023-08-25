@@ -1,4 +1,4 @@
-# Project Introductino
+# Project Introduction
 This is a data visualization project targeted at all power outage events in Mainland USA from 2015 - 2021.
 
 The project includes an iteractive design for all 3 of the views. 
