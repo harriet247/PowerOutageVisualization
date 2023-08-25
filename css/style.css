@@ -1,0 +1,82 @@
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 13px;
+  padding: 30px;
+}
+
+#tooltip {
+  position: absolute;
+  display: none;
+  background: #fff;
+  box-shadow: 2px 2px 3px 0px rgb(92 92 92 / 0.5);
+  border: 1px solid #ddd;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 2px 8px;
+  min-width: 120px;
+}
+.tooltip-title {
+  font-weight: 600;
+  font-size: 16px;
+}
+.tooltip-subtitle {
+  font-size: 14px;
+  font-weight: 400;
+  color: grey;
+  font-style: italic;
+}
+
+.tooltip-listItem {
+  font-weight: 500;
+  font-size: 13px;
+  color: rgb(27, 26, 26);
+}
+
+.tooltip-list {
+  padding-left: 20px;
+  margin-top: 6px;
+  margin-right: 6px;
+}
+
+.bar:hover {
+  stroke: rgb(71, 74, 74);
+  stroke-width: 2px
+}
+
+.bar.cause-selected{
+  fill-opacity: 1;
+  stroke: 'black';
+  stroke-width: 1;
+}
+
+.bar.cause-not-selected{
+  fill-opacity: 0.5;
+}
+
+.tick text {
+  font-size: 11px;
+  fill: #6b6b6b;
+}
+
+.y-axis .tick text {
+  font-size: 12px;
+}
+
+.bar-label {
+  font-size: 14px;
+  fill: #6b6b6b;
+}
+
+.axis-title {
+  fill: #888;
+}
+
+#cartogram .cause-selected {
+  fill-opacity: 1;
+  stroke: 'black';
+  stroke-width: 1;
+}
+
+#cartogram .cause-not-selected {
+  fill-opacity: 0.5;
+}
